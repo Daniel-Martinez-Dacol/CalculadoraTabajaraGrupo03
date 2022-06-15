@@ -14,6 +14,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 Console.Clear();
                 Console.WriteLine("Calculadora Tabajara do Grupo 03 1.0...\n");
                 Console.WriteLine("Tela principal\n");
+                Console.WriteLine("Digite 1 para realizar operações de Adição\n");
                 Console.WriteLine("Digite S para sair\n");
                 Console.WriteLine("Opção: ");
                 opcao = Console.ReadLine();
@@ -30,6 +31,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 
                 switch (opcao)
                 {
+                    case "1": operacao = "Adição"; break;
                     default:
                         break;
                 }
@@ -41,13 +43,15 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 Console.WriteLine($"Digite o primeiro número: ");
                 double primeiroNumero = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine($"Digite o primeiro número: ");
+                Console.WriteLine($"Digite o segundo número: ");
                 double segundoNumero = Convert.ToDouble(Console.ReadLine());
 
                 double resultado = 0;
 
                 switch (opcao)
                 {
+                    case "1": resultado = primeiroNumero + segundoNumero; break;
+
                     default:
                         break;
                 }
