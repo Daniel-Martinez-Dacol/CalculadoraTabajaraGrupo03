@@ -18,6 +18,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 Console.WriteLine("Digite 2 para realizar operações de Adição\n");
                 Console.WriteLine("Digite 3 para realizar operações de Multiplicação\n");  
                 Console.WriteLine("Digite 4 para realizar operações de Divisão\n");
+                Console.WriteLine("Digite 5 para visualizar histórico");
                 Console.WriteLine("Digite S para sair\n");
                 Console.WriteLine("Opção: ");
                 opcao = Console.ReadLine();
