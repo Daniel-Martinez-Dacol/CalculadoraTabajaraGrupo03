@@ -16,6 +16,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 Console.WriteLine("Tela principal\n");
                 Console.WriteLine("Digite 1 para realizar operações de Adição\n");
                 Console.WriteLine("Digite 2 para realizar operações de Adição\n");
+                Console.WriteLine("Digite 3 para realizar operações de Multiplicação\n");  
                 Console.WriteLine("Digite 4 para realizar operações de Divisão\n");
                 Console.WriteLine("Digite S para sair\n");
                 Console.WriteLine("Opção: ");
@@ -35,7 +36,9 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 {
                     case "1": operacao = "Adição"; break;
                     case "2": operacao = "Subtração"; break;
+                    case "3": operacao = "Multiplicação"; break;
                     case "4": operacao = "Divisão"; break;
+                    
                     default:
                         break;
                 }
@@ -56,6 +59,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 {
                     case "1": resultado = primeiroNumero + segundoNumero; break;
                     case "2": resultado = primeiroNumero - segundoNumero; break;
+                    case "3": resultado = primeiroNumero * segundoNumero; break;
                     case "4": resultado = primeiroNumero / segundoNumero; break;
 
                     default:
