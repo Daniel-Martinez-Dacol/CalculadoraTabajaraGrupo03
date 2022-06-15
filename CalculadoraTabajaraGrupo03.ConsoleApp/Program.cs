@@ -12,7 +12,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
             {
                 #region Menu Principal
                 Console.Clear();
-                Console.WriteLine("Calculadora Tabajara do Grupo 03...\n");
+                Console.WriteLine("Calculadora Tabajara do Grupo 03 1.0...\n");
                 Console.WriteLine("Tela principal\n");
                 Console.WriteLine("Digite S para sair\n");
                 Console.WriteLine("Opção: ");
@@ -25,7 +25,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
 
                 #region Realizar Calculo
 
-                Console.WriteLine("Calculadora Tabajara");
+                Console.WriteLine("Calculadora Tabajara do Grupo 03 1.0");
                 string operacao = "";
                 
                 switch (opcao)
@@ -57,7 +57,7 @@ namespace CalculadoraTabajaraGrupo03.ConsoleApp
                 
                 Console.Clear();
 
-                Console.WriteLine("Calculadora Tabajara\n");
+                Console.WriteLine("Calculadora Tabajara do Grupo 03 1.0\n");
 
                 Console.WriteLine("Tela de Resultados\n");
 
